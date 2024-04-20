@@ -40,7 +40,11 @@ theme:
   plugins: 
     - typeset
     - search
- 
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  
 copyright: 
   Copyright © 2024 <a href="https://github.com/dcosimber" target="_blank" rel="noopener">Daniel Costas</a>
